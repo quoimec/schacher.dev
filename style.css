@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Baton Bold Italic";
+    src: url("/Users/Charlie/Downloads/Baton/BatonWeb-BoldItalic.ttf") format("truetype");
+}
+
+body {
+    background-color: #95C18D;
+}

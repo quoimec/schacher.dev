@@ -1,0 +1,20 @@
+.header-main {
+    width: 100%;
+    height: 30px;
+    background-color: #E0DAC8;
+    position: fixed;
+    padding: 14px 0px 14px 0px;
+}
+
+.header-pear {
+    height: 26px;
+    margin: 2px 6px 2px 20px;
+    float: left;
+}
+
+.header-title {
+    font-family: "Baton Bold Italic";
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+}
