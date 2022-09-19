@@ -27,7 +27,7 @@
     
     .page {
         background-color: #95C18D;
-        padding-bottom: 300px;
+        padding-bottom: 100px;
     }
     
     .page-header-main {
@@ -137,8 +137,9 @@
     
     .store-banner {
         cursor: pointer;
-        height: 60px;
+        height: 40px;
         margin-top: 30px;
+        margin-right: 10px;
     }
     
     .content-gallery-container {
@@ -183,6 +184,14 @@
         filter: blur(5px);
         display: none;
     }  
+ 
+    .footer {
+        font-family: "Baton Bold Italic";
+        opacity: 0.6;
+        font-size: 15px;
+        margin-top: 100px;
+        text-align: center;
+    }
 
 }
 
@@ -214,6 +223,7 @@
     .store-banner {
         height: 80px;
         margin-top: 40px;
+        margin-right: 30px;
     }
     
     .content-gallery {
