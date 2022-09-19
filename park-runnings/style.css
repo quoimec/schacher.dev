@@ -18,205 +18,179 @@
     src: url("../resources/fonts/SF-Mono-RegularItalic.otf") format("opentype");
 }
 
-body {
-    background-color: #CFC8B3;
-    margin: 0px;
-}
-
-.page {
-    background-color: #95C18D;
-    padding-bottom: 300px;
-}
-
-.page-header-main {
-    width: 100%;
-    height: 30px;
-    background-color: #E0DAC8;
-    position: fixed;
-    padding: 14px 0px 14px 0px;
-    z-index: 10;
-}
-
-.page-header-pear {
-    height: 26px;
-    margin: 2px 6px 2px 20px;
-    float: left;
-}
-
-.page-header-title {
-    font-family: "Baton Bold Italic";
-    font-size: 24px;
-    text-transform: capitalize;
-    line-height: 32px;
-    float: left;
-}
-
-.content {
-    position: relative;
-    top: 58px;
-    padding: 20px;
-    z-index: 1;
-}
-
-.content-container {
-    padding: 20px;
-    background-color: #CAE0C7;
-    margin-bottom: 60px;
-    position: relative;
-    border-radius: 3px;
-}
-
-#content-title {
-    background-color: transparent;
-}
-
-.title-title {
-    font-family: "Baton Turbo Heavy";
-    font-size: 100px;
-    text-transform: capitalize;
-    margin-left: -6px;
-    line-height: 90px;
-}
-
-.title-subtitle {
-    font-family: "Baton Bold Italic";
-    font-size: 22px;
-    opacity: 0.6;
-    margin-top: 16px;
-}
-
-.content-header-container {
-    width: 100%;
-    height: 40px;
-}
-
-.content-header-float {
-    position: relative;
-    float: left;
-}
-
-.content-header-title {
-    font-family: "Baton Bold Italic";
-    font-size: 28px;
-    text-transform: capitalize;
-}
-
-.content-header-underline {
-    position: absolute;
-    width: calc(100% - 30px);
-    height: 4px;
-    margin-left: 3px;
-    background-color: #95C18D;
-}
-
-.content-copy {
-    font-family: "SF Mono Regular";
-    font-size: 16px;
-}
-
-.content-copy a {
-    color: #547F4C;
-}
-
-.content-copy-side {
-    width: 60%;
-    /*margin-right: 40px;*/
-}
-
-.content-full-image {
-    height: 100%;
-    aspect-ratio: 1;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    display: block;
-}
-
-.store-banner {
-    cursor: pointer;
-}
-
-.content-gallery-container {
-    overflow-y: hidden;
-    overflow-x: auto;
-    margin-top: 20px;
-    margin-bottom: -20px;
-}
-
-.content-gallery {
-    height: 360px;
-    width: calc(320px * 7 + 20px);
-}
-
-.content-gallery-item {
-    width: 300px;
-    padding-left: 20px;     
-    float: left;
-}
-
-.content-gallery-image {
-    width: 300px;
-    aspect-ratio: 1;
-    border-radius: 3px;
-}
-
-.content-gallery-copy {
-    width: calc(100% - 20px);
-    margin-bottom: 20px;
-    margin-left: 2px;
-    margin-right: 18px;
-}
-
-.content-gallery-blur {
-    width: 60px;
-    height: 400px;
-    background-color: #CAE0C7;
-    position: absolute;
-    bottom: 10px;
-    right: -10px;
-    filter: blur(5px);
-    
-}
-
 @media screen and (min-width: 0px) {
 
+    body {
+        background-color: #CFC8B3;
+        margin: 0px;
+    }
+    
+    .page {
+        background-color: #95C18D;
+        padding-bottom: 300px;
+    }
+    
+    .page-header-main {
+        width: 100%;
+        height: 30px;
+        background-color: #E0DAC8;
+        position: fixed;
+        padding: 14px 0px 14px 0px;
+        z-index: 10;
+    }
+    
+    .page-header-pear {
+        height: 26px;
+        margin: 2px 6px 2px 20px;
+        float: left;
+    }
+    
+    .page-header-title {
+        font-family: "Baton Bold Italic";
+        font-size: 24px;
+        text-transform: capitalize;
+        line-height: 32px;
+        float: left;
+    }
+    
+    .content {
+        position: relative;
+        top: 58px;
+        padding: 20px;
+        z-index: 1;
+    }
+    
+    .content-container {
+        padding: 20px;
+        background-color: #CAE0C7;
+        margin-bottom: 20px;
+        position: relative;
+        border-radius: 3px;
+    }
+    
+    #content-title {
+        background-color: transparent;
+    }
+    
     .title-title {
-        font-size: 40px;
+        font-family: "Baton Turbo Heavy";
+        text-transform: capitalize;
         margin-left: -6px;
+        font-size: 40px;
         line-height: 38px;
     }
-
+    
     .title-subtitle {
+        font-family: "Baton Bold Italic";
+        opacity: 0.6;
         font-size: 16px;
         margin-top: 12px;
     }
-
-    .content-container {
-        margin-bottom: 20px;
-    }
-
-    .content-full-image {
-        height: auto;
+    
+    .content-header-container {
         width: 100%;
-        position: inherit;
-        right: 0px;
-        top: 0px;
+        height: 40px;
     }
-
+    
+    .content-header-float {
+        position: relative;
+        float: left;
+    }
+    
+    .content-header-title {
+        font-family: "Baton Bold Italic";
+        font-size: 28px;
+        text-transform: capitalize;
+    }
+    
+    .content-header-underline {
+        position: absolute;
+        width: calc(100% - 30px);
+        height: 4px;
+        margin-left: 3px;
+        background-color: #95C18D;
+    }
+    
+    .content-copy {
+        font-family: "SF Mono Regular";
+        font-size: 14px;
+    }
+    
+    .content-copy a {
+        color: #547F4C;
+    }
+    
     .content-copy-side {
         width: 100%;
         height: auto;
-        /*padding-bottom: 40px;*/
     }
-
+    
+    .content-full-image {
+        height: auto;
+        width: 100%;
+        aspect-ratio: 1;
+        position: inherit;
+        right: 0px;
+        top: 0px;
+        display: block;
+    }
+    
     .store-banner {
+        cursor: pointer;
         height: 60px;
         margin-top: 30px;
     }
+    
+    .content-gallery-container {
+        overflow-y: hidden;
+        overflow-x: auto;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+    
+    .content-gallery {
+        height: 220px;
+        width: 100%;
+    }
+    
+    .content-gallery-item {
+        width: 100%;
+        padding-left: 0px;     
+        float: left;
+        padding-bottom: 20px;
+    }
+    
+    .content-gallery-image {
+        width: 100%;
+        aspect-ratio: 1;
+        border-radius: 3px;
+    }
+    
+    .content-gallery-copy {
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+        margin-left: 2px;
+        margin-right: 18px;
+    }
+    
+    .content-gallery-blur {
+        width: 60px;
+        height: 400px;
+        background-color: #CAE0C7;
+        position: absolute;
+        bottom: 10px;
+        right: -10px;
+        filter: blur(5px);
+        display: none;
+    }  
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
+    
+    .content {
+        padding: 20px calc((100% - 600px) / 2);
+    }
     
     .title-title {
         font-size: 100px;
@@ -233,14 +207,44 @@ body {
         margin-bottom: 60px;
     }
     
+    .content-copy {
+        font-size: 16px;
+    }
+    
     .store-banner {
         height: 80px;
         margin-top: 40px;
     }
     
+    .content-gallery {
+        height: 360px;
+        width: calc(320px * 7 + 20px);
+    }
+    
+    .content-gallery-item {
+        width: 300px;
+        padding-left: 20px;
+    }
+    
+    .content-gallery-image {
+        width: 300px;
+    }
+    
+    .content-gallery-copy {
+        width: calc(100% - 20px);
+    }
+    
+    .content-gallery-blur {
+        display: block;
+    }
+    
 }
 
 @media screen and (min-width: 900px) {
+
+    .content {
+        padding: 20px;
+    }
 
     .content-full-image {
         height: 100%;
