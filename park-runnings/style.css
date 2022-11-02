@@ -228,7 +228,7 @@
     
     .content-gallery {
         height: 360px;
-        width: calc(320px * 7 + 20px);
+        width: calc(320px * 9 + 20px);
     }
     
     .content-gallery-item {
